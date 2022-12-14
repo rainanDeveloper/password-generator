@@ -1,3 +1,3 @@
 export interface GeneratePasswordInputDto {
-    length: number;
+  length: number;
 }
