@@ -1,8 +1,8 @@
-import { Password, PasswordProps } from "./password.entity";
+import { Password, PasswordProps } from './password.entity';
 
-describe("Password", () => {
-  describe("constructor", () => {
-    it("should create a new password", () => {
+describe('Password', () => {
+  describe('constructor', () => {
+    it('should create a new password', () => {
       // Arrange
       const props: PasswordProps = {
         length: 15,

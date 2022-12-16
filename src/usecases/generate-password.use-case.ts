@@ -1,5 +1,5 @@
-import { Password } from "./../entities/password.entity";
-import { GeneratePasswordInputDto } from "./dto/generate-password-use-case-input.dto";
+import { Password } from './../entities/password.entity';
+import { GeneratePasswordInputDto } from './dto/generate-password-use-case-input.dto';
 
 export class GeneratePasswordUseCase {
   public execute(input: GeneratePasswordInputDto) {

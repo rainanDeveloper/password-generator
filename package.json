@@ -1,17 +1,22 @@
 {
   "name": "password-generator-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple password generator api",
+  "main": "src/web/main.ts",
   "scripts": {
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test": "jest --passWithNoTests",
     "dev": "ts-node-dev ./src/web/main.ts",
     "build": "tsc -p ./tsconfig.build.json",
     "start": "node dist/web/main.js"
   },
+  "engines": {
+    "node": "19.0.0",
+    "npm": "8.19.2"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",

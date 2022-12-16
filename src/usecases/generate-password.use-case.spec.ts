@@ -1,9 +1,9 @@
-import { GeneratePasswordUseCase } from "./generate-password.use-case";
-import { GeneratePasswordInputDto } from "./dto/generate-password-use-case-input.dto";
+import { GeneratePasswordUseCase } from './generate-password.use-case';
+import { GeneratePasswordInputDto } from './dto/generate-password-use-case-input.dto';
 
-describe("GeneratePasswordUseCase", () => {
-  describe("execute", () => {
-    it("should generate a password", () => {
+describe('GeneratePasswordUseCase', () => {
+  describe('execute', () => {
+    it('should generate a password', () => {
       // Arrange
       const input: GeneratePasswordInputDto = {
         length: 15,
