@@ -16,7 +16,7 @@ export class Password {
     this.password = '';
 
     while (this.password.length < length) {
-      const letterPosition = Math.round(Math.random() * LETTER_POOL.length);
+      const letterPosition = Math.floor(Math.random() * LETTER_POOL.length);
 
       this.password += LETTER_POOL[letterPosition];
     }
