@@ -12,6 +12,12 @@ body {
   background-color: #2d3436;
 }
 
+.app {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+}
+
 form {
   margin-top: 40px;
   display: flex;
@@ -52,4 +58,9 @@ button, input, #password-display {
 
 button {
   cursor: pointer;
+}
+
+.ads {
+  padding: 30px;
+  width: 160px;
 }
